@@ -1,0 +1,407 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+
+}
+
+ 
+ .hero-section-desktop{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: left;
+    
+     
+}
+.hero-section-desktop h1{
+    text-align: left;
+    font-size: 56px;
+   margin: 0 56px;
+   margin-bottom:28px;
+   line-height: 1.25;
+    
+}
+.hero-section-desktop p{
+    text-align: left;
+    font-size: 16px;
+    margin: 0 56px;
+    line-height: 1.71;
+    margin-bottom: 36px;
+    
+}
+.hero-section-desktop img{
+    width: 100%;
+     
+}
+.hero-section-mobile img{
+    width: 550px;
+}
+
+
+
+@media (min-width:800px){
+    *{
+        font-size: 16px;
+    }
+}
+a{
+ display:inline-block;
+ text-decoration: none;
+ color: rgba(128, 128, 128, 0.904);
+ 
+}
+a:hover{
+    color: black;
+}
+header {
+  
+ background:white ;
+ box-shadow:0px 0px 4px 2px rgb(201, 199, 199);
+ position: fixed;
+ width: 100%;
+
+ 
+}
+.clear{
+    height: 100px;
+}
+.clearr{
+    height: 60px;
+}
+.mobile nav{
+    height: 52px;
+    border-bottom: 1px solid rgb(202, 199, 199);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.8%;
+}
+.desktop nav{
+    height: 46px;
+    border-bottom: none rgb(202, 199, 199);
+    display: flex;
+    justify-content: space-between;
+    margin:8px 14px;
+}
+.desktop  a{
+    margin-left: 34px;
+    
+}
+.desktop .btn{
+    padding: 5px 22px;
+    
+}
+
+
+    
+header img{
+    height:34px;
+    
+    
+}
+.btn{
+    background-color: #1a73e8;
+    color: white;
+    padding: 0 24px;
+    line-height: 36px;
+    border-radius: 2px;
+    letter-spacing: 0.75px;
+    font-weight:600 ;
+   
+    
+}
+.hero-section-mobile .btn{
+    background-color: #1a73e8;
+    color: white;
+    padding: 0 24px;
+    line-height: 46px;
+    border-radius: 2px;
+    letter-spacing: 0.75px;
+    font-weight:600 ;
+    width: 28%;
+    
+}
+.get-started-mobile .btn{
+    background-color: #1a73e8;
+    color: white;
+    padding: 0 22px;
+    line-height: 46px;
+    border-radius: 2px;
+    letter-spacing: 0.75px;
+    font-weight:600 ;
+    width: 28%;
+    
+}
+.take-action-desktop h2{
+    text-align: left;
+    margin-left: 59px;
+    margin-bottom: 28px;
+    line-height: 1.25;
+}
+.take-action-desktop p{
+    text-align: left;
+    margin-left: 59px;
+   margin-right: 64px;
+    line-height: 1.71;
+}
+.take-action-desktop img{
+    width:100%;
+}
+
+
+.btn:hover{
+    color: white;
+    background-color: blue;
+    
+}
+
+
+.gmail-logo-text{
+    margin-left: 3px;
+    margin-bottom: 24px;
+    font-size:24px ; 
+    color: #666;
+   
+    font-weight: 600;
+   
+}
+footer{
+    padding: 32px;
+    background-color: #f8f8f8;
+}
+footer img{
+    height: 30px;
+    background-color: none;
+   
+}
+footer nav{
+    margin: 32px 0px;
+}
+footer ul{
+    display: flex;
+   list-style: none;
+ 
+}
+footer li{
+    margin-right: 24px;
+    color: gray;
+}
+footer li:hover{
+    color: #000;
+}
+
+
+
+footer select{
+    margin-left:16px ;
+    border:none;
+    padding :8px;
+    width: 260px;
+    background-color: #f8f8f8;
+   
+}
+.q-logo{
+    color: white;
+ font-weight: 500;
+    background: black;
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+    border-radius: 99px;
+    display: inline-block;
+    text-align: center;
+
+}
+  section{
+      text-align: center;
+        padding:48px 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+  }
+  
+
+ 
+  h1,h2{
+      font-size: 32px;
+      color: #222;
+      font-weight: 700;
+      text-align: center;
+      margin:  15px 0;
+      letter-spacing: 0.50px;
+  }
+  h1{
+      font-size: 44px;
+      line-height:50px;
+  }
+  p{
+    margin: 10px;
+      text-align: center;
+       
+  }
+  
+  .hero-section,.stay-organized,.never-drop-the-ball,.avoid-suspicious-emails{
+      background: #f8f8f8;
+  }
+  .get-started-mobile > * + *{
+      margin: 28px 0;
+  }
+  .get-started-mobile img{
+      height: 72px;
+     
+  }
+  .get-started-desktop > * + *{
+    margin: 24px 0;
+}
+.get-started-desktop img{
+    height: 72px;
+   
+}
+  .get-started-mobile btn{
+      line-height: 42px;
+  }
+ 
+  
+  .experience-gmail img{
+      height: 48px;
+      margin-top: 32px;
+  }
+  .m4{
+      margin: 20px 40px;
+  }
+  .devices img{
+      width: 100%;
+      padding: 0%;
+  }
+  .stay-organized img{
+      height: 400px;
+  }
+  .never-drop-the-ball img{
+    height: 400px;
+}
+.avoid-suspicious-emails img{
+    height: 400px;
+}
+.avoid-suspicious-emails-desktop img{
+   
+    width: 95%;
+}
+.avoid-suspicious-emails-desktop p{
+    text-align: left;
+    margin:0 59px;
+    line-height: 1.71;
+}
+.avoid-suspicious-emails-desktop h2{
+    text-align: left;
+    margin: 0 56px;
+    margin-bottom: 28px;
+    line-height: 1.25;
+   
+}
+.stay-drop img{
+    width:100%
+   
+}
+
+.stay-drop div{
+    margin: 0 12px;
+    background: #f8f8f8;
+    text-align: left;
+    height: 100%;
+}
+.stay-drop p{
+    text-align: left;
+    line-height: 1.71;
+    margin: 0 24px;
+    padding: 0 24px;
+    padding-top: 12px;
+    padding-bottom: 56px;
+   
+}
+
+.stay-drop h2{
+    text-align: left;
+    line-height: 1.25;
+    margin-bottom:28px ;
+    
+    margin: 0 24px;
+    padding: 0 24px;
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+.drop h2{
+    margin:0 12px;
+}
+.drop p{
+    margin-bottom: 56px;
+}
+.take-action-mobile  img{
+    height: 400px;
+}
+.hero-section img{
+    height: 375px;
+} 
+.mobile-only{
+
+}
+ .desktop-only{
+    display: none;
+} 
+
+
+@media (min-width:800px){
+    .mobile-only{
+        display: none;
+        
+    }
+    .desktop-only{
+        display:block;
+        grid-template-columns: 50% 50%;
+    }
+    h2{
+        font-size: 46px;
+        padding-right:24px ;
+    }
+    .hero-section-desktop{
+        display: grid;
+    grid-template-columns: 50% 50%;
+    background: #f8f8f8;
+
+    }
+    .hero-section-desktop .btn{
+        padding: 5px 22px;
+        
+    }
+    .take-action-desktop{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .get-started-desktop .btn{
+        padding: 5px 22px;
+       
+    }
+    .avoid-suspicious-emails-desktop{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background: #f8f8f8;
+    }
+    .stay-drop{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 600px;
+        
+        
+    }
+    .stay-drop h2{
+        margin-top: 28px;
+    }
+    
+    
+}
+
+
+ 
+  
